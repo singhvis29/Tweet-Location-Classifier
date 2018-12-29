@@ -1,4 +1,11 @@
-# a2 - Tweet Classification
+# Geolocation of Tweets
+A classic example of Bayes Law is in document classfication. This programs showcases basic implementation of a basic Naive Bayes Classifier using a Bag of Words model and uses it to determine the location (list of 12 cities) from which the tweet has been posted using content of the tweet. 
+
+Files used-
+**1.** tweets.train.clean.txt: Training data used to train the Naive Bayes Classifier; each line contains the location from which the tweet has been posted followed by the tweet.
+**2.** tweets.test1.clean.txt: Testing data; the format is same as the training data but the content of the tweet is used to determine the location from the trained NB Classifier
+**3.** output-file.txt: This is the output file generated; contains the predicted tweet followed by the given tweet and the tweet itself (from the testing data)
+
 The Process for estimation of location based on tweet has been done using following steps-
 
 **STEP 1:** The training and test dataset have been cleaned using the code<br>
